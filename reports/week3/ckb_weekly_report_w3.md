@@ -9,6 +9,7 @@ about gaming on CKB is Fiber, I save some time this week to dig in Fiber and it 
 **Courses Completed**
 - Completed Phase 2: Lessons 10–12 of [Learning CKB Fundamentals](https://website-sooty-chi-72.vercel.app/)
 - Started Phase 3: Lessons 13, 14, 15 of [Learning CKB Fundamentals](https://website-sooty-chi-72.vercel.app/)
+- Ran [Create a Fungible Token](https://docs.nervos.org/docs/dapp/create-token) and [Create a DOB using Spore Protocol](https://docs.nervos.org/docs/dapp/create-dob) dApp
 - Started Fiber Network Quick Start series
 
 **Key Learnings**
