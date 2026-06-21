@@ -18,6 +18,7 @@ and Protocol utilizing Bitcoin Liquidity
 - **Order Cell Pattern**: An open order is its own cell on-chain, no central escrow. This Order Cell is effective for both xUDT and Spore which is mind-blowing, I really can feel the powel of 
 reusable Scripts on CKB
 - **SAY NO to MEV Bots**: "jumping the queue" just makes the late person's transaction fail and they don't lose money like on EVM
+- **Orderbook's liquidity gap, and how CKB actually solves it**: I was curious how this Orderbook's Cell can solve Liquidity because even if an asset has plenty of supply out there, none of it is reachable unless someone's posted your exact price. And I found UTXOSwap's fix: instead of every trader fighting over one shared AMM pool cell, each trader gets a personal "intent cell" matched off-chain, then verified against the pool on-chain which will avoids the contention while still giving AMM-style constant liquidity.
 - **TYPE_ID-deployed contracts got updated bug**: @nervina-labs/ckb-dex hardcodes the DEX lock's deployment outpoint, but that contract got redeployed via TYPE_ID and the SDK's reference was never updated.
 This one got me going around for quite a time
 
