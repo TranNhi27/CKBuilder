@@ -38,7 +38,7 @@ The first upgrade pick is free: you start with nothing to spend. After that, car
 3. Press **Play**. Opening the channel confirms on-chain and takes about a minute.
 4. Play. Cash out when you're done.
 
-Stuck? See **[Troubleshooting](docs/TROUBLESHOOTING.md)**.
+Stuck? See **[Known Issues](docs/ISSUES.md)**
 
 ### How it fits together
 
@@ -74,4 +74,7 @@ Unity 6 (URP, WebGL) · Nervos CKB + Fiber Network · Node.js / Express · fnn v
 
 ## Docs
 
-- **[Troubleshooting](docs/TROUBLESHOOTING.md)** — every failure mode hit during development, what causes it, and how to fix it
+- **[Known Issues](docs/ISSUES.md)** — common problems players run into and how to fix them
+
+## Disclaimer: 
+- The Project uses some paid assets to speed up development and make the game look nicer, currently Feel and the Vefects Effect Pack. This means the full game source can't be opensourced, since those assets come with their own licensing restrictions.
